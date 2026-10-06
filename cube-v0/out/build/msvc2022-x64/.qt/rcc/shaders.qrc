@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="fshader.glsl">D:/Graphics/opengl/cube-v0/fshader.glsl</file>
+    <file alias="vshader.glsl">D:/Graphics/opengl/cube-v0/vshader.glsl</file>
+  </qresource>
+</RCC>
+

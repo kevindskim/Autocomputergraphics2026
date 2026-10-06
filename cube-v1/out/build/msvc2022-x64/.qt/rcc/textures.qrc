@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="cube.png">D:/Graphics/opengl/cube-v1/cube.png</file>
+  </qresource>
+</RCC>
+

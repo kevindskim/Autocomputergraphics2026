@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\cube-v2_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Graphics\opengl\cube-v2\geometryengine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Graphics\opengl\cube-v2\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Graphics\opengl\cube-v2\mainwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\.qt\rcc\qrc_shaders.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\.qt\rcc\qrc_textures.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\cube-v2_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\cube-v2_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\cube-v2_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Graphics\opengl\cube-v2\geometryengine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Graphics\opengl\cube-v2\mainwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\.qt\rcc\shaders.qrc">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Graphics\opengl\cube-v2\fshader.glsl">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Graphics\opengl\cube-v2\vshader.glsl">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\.qt\rcc\textures.qrc">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Graphics\opengl\cube-v2\cube.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\CMakeFiles\aa37b6f27c265dd3db36a1fca1c168b2\qrc_shaders.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\CMakeFiles\aa37b6f27c265dd3db36a1fca1c168b2\qrc_textures.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Graphics\opengl\cube-v2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D2DE507D-4398-3BF6-BDCD-50DE3B66F3B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2212CA32-62B8-364A-BE6D-02606A6FBD5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{65F6B33E-8C79-3C47-B9E5-89A47331F268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{584BAC43-E6E8-39BF-946F-265D9446843B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{46CF96C1-CF8A-39E7-A946-DDA763143D2D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

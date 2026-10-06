@@ -1,0 +1,65 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 25,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "architecture": {
+        "value": "x64",
+        "strategy": "external"
+      },
+      "cacheVariables": {
+        "CMAKE_CXX_STANDARD": "17",
+        "CMAKE_CXX_STANDARD_REQUIRED": "ON",
+        "CMAKE_PREFIX_PATH": "D:/dev/Qt/6.10.2/msvc2022_64",
+        "Qt6_DIR": "D:/dev/Qt/6.10.2/msvc2022_64/lib/cmake/Qt6"
+      },
+      "environment": {
+        "PATH": "D:/dev/Qt/6.10.2/msvc2022_64/bin;$penv{PATH}"
+      }
+    },
+    {
+      "name": "x64-relwithdebinfo",
+      "displayName": "x64 RelWithDebInfo",
+      "description": "Qt6 desktop viewer build",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+      }
+    },
+    {
+      "name": "x64-release",
+      "displayName": "x64 Release",
+      "description": "Release build for packaging or final validation",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "build-relwithdebinfo",
+      "displayName": "Build RelWithDebInfo",
+      "configurePreset": "x64-relwithdebinfo",
+      "targets": [
+        "cube"
+      ]
+    },
+    {
+      "name": "build-release",
+      "displayName": "Build Release",
+      "configurePreset": "x64-release",
+      "targets": [
+        "cube"
+      ]
+    }
+  ]
+}

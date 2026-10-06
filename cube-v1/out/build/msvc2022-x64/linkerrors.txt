@@ -1,0 +1,8 @@
+================================================================================
+Linker Errors
+Generated: 2026-10-04T15:42:11.074Z
+Total Errors: 1
+================================================================================
+
+[LNK1168] (MSVC)
+D:\Graphics\opengl\cube-v1\out\build\msvc2022-x64\Debug\cube-v1.exe을(를) 쓰기용으로 열 수 없습니다. [D:\Graphics\opengl\cube-v1\out\build\msvc2022-x64\cube-v1.vcxproj]

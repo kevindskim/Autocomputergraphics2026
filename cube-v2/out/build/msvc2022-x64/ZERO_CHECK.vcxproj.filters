@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Graphics\opengl\cube-v2\out\build\msvc2022-x64\CMakeFiles\7cabe7b6f852530eb29a80d17922f24d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D2DE507D-4398-3BF6-BDCD-50DE3B66F3B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
