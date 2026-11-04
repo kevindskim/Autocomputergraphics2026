@@ -12,9 +12,9 @@
 int main(int argc, char *argv[])
 {
     QSurfaceFormat format;
-    format.setVersion(3, 3);
-    format.setProfile(QSurfaceFormat::CoreProfile);
-    format.setDepthBufferSize(24);
+    format.setVersion(3, 3);     // Set OpenGL version to 3.3
+    format.setProfile(QSurfaceFormat::CoreProfile);  // Set OpenGL profile to CoreProfile
+    format.setDepthBufferSize(24);  // Set depth buffer size to 24 bits
     QSurfaceFormat::setDefaultFormat(format);
 
     QApplication app(argc, argv);
